@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'ASIX-FOUNDER';
+
+    src: url('asix founder.woff');
+}
+
+body{
+    background-color: #1e2b6a;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 210mm;
+    height: 297mm;
+    border: 30px solid #1e2b6a;
+}
+
+div.tab {
+    width:50%;
+    margin-left: left;
+    line-height: 0.75;
+    color: #41a037;
+    /*margin-right: auto;*/
+    font-size:135px;
+    text-align: center;
+    /*background-color: yellow;*/
+    font-family: 'ASIX-FOUNDER';
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+div.tab.a{
+    background-color: #5e1f2c;
+    width: fit-content;
+}
+div.tab.b{
+    background-color: #1e2b6a;
+    width: fit-content;
+}
+div.tab.c{
+    background-color: #41a037;
+    width: fit-content;
+}
+div.tab.d{
+    background-color: #ffffff;
+    width: fit-content;
+}
+
+/* parent -sibling class들(a,b,c) */
+div.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.headline{
+    font-family: 'Medium';
+    font-weight: Regular;
+}
+
+/*Republic of*/
+div.headline.a{
+    width: 70%;
+    font-size: 39.2px;
+    color: #ffffff;
+    /* text-transform, line-height로 여기서 변형도 줄 수 있음.(참고) */
+}
+
+/*Korea*/
+div.headline.b{
+    font-size: 150px;
+    -webkit-text-stroke: 3px #ffffff;
+    color: #41a037;
+}
+
+/*M081293830KOR2817349M3718294657399345V16253456*/
+div.headline.c{
+    font-size: 18px;
+    font-family: Iskry EDU;
+    -webkit-text-stroke: 0.3px #ffffff;
+    color: #5e1f2c;
+    font-weight: lighter;
+    margin-right: right;
+    margin-left: auto;
+}
+
+div.headline.one{
+    background-color: #41a037;
+    border-end-end-radius: 50px 50px;
+}
+
+div.headline.two{
+    background-color: white;
+}
+
+div.headline.three{
+    background-color: #1e2b6a;
+}
+
+div.headline.x{
+    display: block;
+}
+
+div.headline.y{
+    display: block;
+}
+
+div.headline.z{
+    display: block;
+}
+
+/* anything with random can get this transition */
+div.random {
+    transition: 1s;
+}
+
+/*M08129383*/
+h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 55px;
+    color: #5e1f2c;
+    font-family:Medium;
+    font-weight: Regular;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+/*The Ministry of Foreign Affairs*/
+h2{
+    /* width 숫자 크기에 따라 col들의 간격띄우기가 달라짐 + width는 px가 아닌 %로 나타내야함. */
+    /*width: 15%;*/
+    font-family: Iskry EDU;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/*Is Valid*/
+h3{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 0.75;
+    color: #41a037;
+    font-size:135px;
+    text-align: right;
+    /*background-color: yellow;*/
+    font-family: 'ASIX-FOUNDER';
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/*Eunseo Lee*/
+h4{
+    margin-bottom: 8px;
+    width: 63%;
+    font-family: Iskry EDU;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+}
+
+/*paragraph*/
+h5{
+    margin-top: 5px;
+    width: 50%;
+    font-family: Iskry EDU;
+    font-weight: Lighter;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+}
